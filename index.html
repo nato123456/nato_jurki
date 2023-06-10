@@ -14,8 +14,35 @@
 	
 	<h2>Navigacijska lista sa linkovima:</h2>
 	<nav>
+		
+		<style>
+	ul {	padding:20px; /*centriranje*/
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			} 
+	li {	display:inline; 
+			background-color:LightCoral;
+			padding:20px;
+			border: 2px solid IndianRed;
+		}
+	li:active {background-color:IndianRed;} /*kada kliknemo na li mijenja se boja*/
+		
+	li a {	color:white; 
+			font-family: "Montserrat", sans-serif; 
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+		</style>	
+			
+			
+		
+			
 		<ul>
-			<li><a href="#">O meni</a></li>     <li><a href="#">Vjezbe</a></li>      <li><a href="#">Video</a></li>
+			<li><a href="#">O meni</a></li>     
+			<li><a href="#">Vjezbe</a></li>      
+			<li><a href="#">Video</a></li>
 		</ul>
 	</nav>
 	
