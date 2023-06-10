@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+img {
+	height:300px;
+}
+p {
+	font-size:30px;
+	line-height:35px;
+	background-color:goldenrod;
+	padding:15px;
+}
+body{
+	background-image:url("slike/pozdina.jpg");
+}
+h1,h2,h3{
+	color:goldenrod;
+	font-size:30px;
+	font-family:georgia;
+}
+span{
+	color:goldenrod;
+}
