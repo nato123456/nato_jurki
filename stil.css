@@ -20,3 +20,5 @@ h1,h2,h3{
 span{
 	color:goldenrod;
 }
+@font face{font family:"NatoJurki";src:url("dokumenti/NatoJurki.ttf");}
+h4{font family:"NatoJurki"}
